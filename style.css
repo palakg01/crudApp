@@ -1,0 +1,30 @@
+.btnedit {
+  cursor: pointer;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 720px) {
+  .table-container table {
+    padding: 0 !important;
+    margin: 0;
+    width: 95% !important;
+  }
+
+  .book-form {
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+  }
+
+  .d-flex form {
+    width: 90% !important;
+  }
+}
+
+.crud-btn:hover {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.7);
+}
